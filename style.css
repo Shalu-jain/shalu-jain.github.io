@@ -24,7 +24,7 @@ html {
 
 .bgimgtop {
     box-sizing: border-box;
-    background-image: url("../images/bgimg3.png");
+    background-image: url("bgimg3.png");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 575px;
@@ -55,7 +55,7 @@ html {
 
 .columnimgright {
     box-sizing: border-box;
-    background-image: url("../images/coding1.svg");
+    background-image: url("coding1.svg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 215px;
@@ -386,7 +386,7 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
 
 .envelopebgimg {
     box-sizing: border-box;
-    background-image: url("../images/envelope1.svg");
+    background-image: url("envelope1.svg");
     background-repeat: no-repeat;
     min-height: 672px;
     /* width: 675px; */
