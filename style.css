@@ -464,6 +464,13 @@ all and (min-width: 992px) and (-webkit-transform-3d) {
 .alink {
     text-decoration: none !important;
 }
+.alinkcolor:hover {
+    color: white;
+}
+
+.alinkcolor:focus {
+    color: white;
+}
 
 .well {
     padding: 19px;
