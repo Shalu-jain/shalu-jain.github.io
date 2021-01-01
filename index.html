@@ -11,9 +11,8 @@
 </head>
 
 <body>
-    <div id="home"></div>
     <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
+        <div class="container-fluid navbarpadding">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -24,11 +23,10 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home"> Home</a></li>
-                    <li><a href="#aboutme"> About Me</a></li>
-                    <li><a href="#skills"> Skills</a></li>
-                    <li><a href="#works"> Works</a></li>
-                    <li><a href="#connect"> Connect</a></li>
+                    <li><a href="#aboutme" class="nav-link nav-link-ltr"> About Me</a></li>
+                    <li><a href="#skills" class="nav-link nav-link-ltr"> Skills</a></li>
+                    <li><a href="#works" class="nav-link nav-link-ltr"> Works</a></li>
+                    <li><a href="#connect" class="nav-link nav-link-ltr"> Connect & Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -38,7 +36,7 @@
             <div class="row">
                 <div class="col-md-6 columnleft1">
                     <p class="paragraph1">Hi, I'm Shalu Jain</p>
-                    <p class="paragraph2">I'm UI Developer who loves building attractive, responsive and custom websites.</p>
+                    <p class="paragraph2">UI Developer who loves building attractive, responsive and custom websites.</p>
                 </div>
                 <div class="col-md-6 columnright1">
                     <img src="bgimg2.png" class="skillimgtop">
@@ -51,14 +49,20 @@
             </div>
             <div class="row">
                 <div class="col-md-12 textcenter">
-                    <!-- <img src="images/arrow2.svg" class="arrowimg"> -->
-                    <p><i class="arrow down"></i></p>
+                    <!-- <a href="#aboutme">
+                        <p><i class="arrow down"></i></p>
+                    </a> -->
+                    <a href="#aboutme">
+                        <div class="arrow-container">
+                            <div class="arrow-down"></div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
     <div id="aboutme"></div><br/><br/><br/><br/>
-    <div class="container-fluid containerpadding">
+    <div class="container containerpadding">
         <div class="row">
             <div class="col-md-12 textcenter">
                 <p class="headingcolor"><b>ABOUT ME</b></p>
@@ -72,27 +76,27 @@
                 <p class="paragraph3">UI Developer with 2 years of experience in creating, maintaining and implementing source code that made up applications back-end functionalities and also in designing and developing user interfaces, testing, debugging and proven ability
                     in optimizing web functionality that improve data retrieval and workflow efficiencies. I always enjoy building software, solving problems and learning new technologies.</p><br/>
                 <p></p>
-                <p><span class="dot"></span>Design and develop our product using HTML5, CSS, Bootstrap, React Js, JQuery,JavaScript, AJAXand other technologies.</p>
-                <p><span class="dot"></span>Creating, maintaining and implementing source code for applications modules.</p>
-                <p><span class="dot"></span>Designed and developed user friendly website, to improve user bug report.</p>
-                <p><span class="dot"></span>Developed dynamic and interactive websites for our company and for clients.</p>
-                <p><span class="dot"></span>Coordinated with systems partners to finalize designs and confirm requirements.</p>
-                <p><span class="dot"></span>Provided continued maintenance and development of bug fixes and patch sets of existing web applications.</p>
-                <p><span class="dot"></span>Deploying and monitoring production servers including handling load balancing.</p>
+                <p class="paragraph3"><span class="dot"></span>Design and develop websites using HTML5, CSS, Bootstrap, React Js, JQuery,JavaScript etc.</p>
+                <p class="paragraph3"><span class="dot"></span>Creating, maintaining and implementing source code for applications modules.</p>
+                <p class="paragraph3"><span class="dot"></span>Designed and developed user friendly website, to improve user bug report.</p>
+                <p class="paragraph3"><span class="dot"></span>Developed dynamic and interactive websites for our company and for clients.</p>
+                <p class="paragraph3"><span class="dot"></span>Coordinated with systems partners to finalize designs and confirm requirements.</p>
+                <p class="paragraph3"><span class="dot"></span>Provided continued maintenance and development of bug fixes and patch sets of existing web applications.</p>
+                <p class="paragraph3"><span class="dot"></span>Deploying and monitoring production servers including handling load balancing.</p>
 
             </div>
         </div>
     </div>
     <div id="skills"></div><br/><br/><br/><br/>
-    <div class="container containerpadding">
+    <div class="container-fluid containerpadding">
         <div class="row">
             <div class="col-md-12 textcenter">
                 <p class="headingcolor"><b>SKILLS</b></p>
             </div>
         </div>
     </div>
-    <div class="bgimgtop">
-        <div class="container">
+    <div class="bgimgtop"><br/>
+        <div class="container containerrowpadding">
             <div class="row containerpadding">
                 <div class="col-md-3">
                     <div class="well skillwell">
@@ -155,7 +159,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="well skillwell">
-                        <img src="java.png" class="skillimages">
+                        <img src="git.png" class="skillimages">
                     </div>
                 </div>
             </div>
@@ -168,7 +172,7 @@
                 <p class="headingcolor"><b>WORKS</b></p>
             </div>
         </div>
-        <div class="row">
+        <div class="row containerrowpadding">
             <div class="col-md-4 containerrowpadding">
                 <div class="well expwell">
                     <img src="cmlogo.svg" class="skillimages">
@@ -177,7 +181,7 @@
                     <p class="paragraph3">Aug 2018 - Jun 2020</p>
                     <p class="paragraph3">Hosur, Tamilnadu, India</p>
 
-                </div><br/>
+                </div>
                 <div class="well professionalskillwell">
 
                     <p class="heading2"><b>Professional Skills</b></p><br/>
@@ -295,53 +299,59 @@
             </div>
         </div>
     </div>
-    <div id="connect"></div><br/><br/><br/><br/>
-    <div class="container containerpadding">
+    <div id="connect"></div><br/><br/><br/><br/><br/>
+    <div class="container">
         <div class="row">
             <div class="col-md-12 textcenter">
-                <p class="headingcolor"><b>CONNECT</b></p>
+                <p class="headingcolor"><b>CONNECT & CONTACT</b></p>
             </div>
         </div>
     </div>
-    <div class="container-fluid footer containerrowpadding">
+    <div class="container-fluid footer containerrowpaddingfooter">
         <div class="row containerrowpadding">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="well connectwell">
                     <div class="row">
-                        <div class="col-md-2">
+                        <div class="col-md-12">
                             <img src="linkedin.jpg" class="connectimg">
-                        </div>
-                        <div class="col-md-10 connectpadding">
-                            <a href="https://www.linkedin.com/in/shalu-jain-7646071b3" class="alink">
+                            <a href="https://www.linkedin.com/in/shalu-jain-7646071b3" target="_blank" class="alink">
                                 <p class="linkedinlink"><b>linkedin.com/in/shalu-jain-7646071b3</b></p>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="well connectwell">
                     <div class="row">
-                        <div class="col-md-2">
-                            <img src="instagram.jpg" class="connectimg">
-                        </div>
-                        <div class="col-md-10 connectpadding">
-                            <a href="https://www.instagram.com/shalujain683/" class="alink">
+                        <div class="col-md-12">
+                            <img src="instagram.jpg" class="connectimg"><br/>
+                            <a href="https://www.instagram.com/shalujain683/" target="_blank" class="alink">
                                 <p class="instagramlink"><b>instagram.com/shalujain683/</b></p>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="well connectwell">
                     <div class="row">
-                        <div class="col-md-2">
-                            <img src="facebook.png" class="connectimg">
-                        </div>
-                        <div class="col-md-10 connectpadding">
-                            <a href="https://www.facebook.com/shalu.jain.7140" class="alink">
+                        <div class="col-md-12">
+                            <img src="facebook.png" class="connectimg"><br/>
+                            <a href="https://www.facebook.com/shalu.jain.7140" target="_blank" class="alink">
                                 <p class="facebooklink"><b>facebook.com/shalu.jain.7140</b></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="well connectwell">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="githubblack.png" class="connectimg"><br/>
+                            <a href="https://github.com/Shalu-jain" target="_blank" class="alink">
+                                <p class="githublink"><b>github.com/Shalu-jain</b></p>
                             </a>
                         </div>
                     </div>
@@ -349,7 +359,54 @@
             </div>
         </div>
     </div>
+    <div class="container-fluid deploymentfooter">
+        <div class="row containerrowpaddingcontact">
+            <div class="col-md-6 textcenter">
+                <div class="row deploymentcolumntop">
+                    <div class="col-md-8">
+                        <img src="githubwhite.png" class="sourceimg">
+                        <p class="sourceheading"><b>Source Available <a href="https://github.com/Shalu-jain" class="alinkcolor"><u>Here</u></b></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row deploymentcolumndown">
+                    <div class="col-md-8">
+                        <img src="githubwhite.png" class="sourceimg">
+                        <p class="sourceheading"><b>Deployed with github</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 textcenter">
+                <img src="envelope1.svg" class="envelopesvg">
+                <div class="centeredenvelope">
+                    <form action="/action_page.php">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" id="name" name="name" placeholder="Your name..">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" id="email" name="email" placeholder="Your Email..">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <textarea id="query" name="query" placeholder="Write something.." rows="5"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12"><br/>
+                                <button type="button" class="btn btn-default submitbtn"><b>SUBMIT</b></button>
+                            </div>
+                        </div>
+                    </form>
 
+                </div>
+
+            </div>
+        </div>
+    </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">
         <div class="arrowtop top"></div>
     </button>
