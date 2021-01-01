@@ -631,6 +631,20 @@ textarea {
     font-size: 18px;
 }
 
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.open>.dropdown-toggle.btn-default.focus,
+.open>.dropdown-toggle.btn-default:focus,
+.open>.dropdown-toggle.btn-default:hover {
+    color: #1f1f42;
+    background-color: rgb(125 194 226);
+    border-color: rgb(125 194 226);
+}
+
 .alinkcolor {
     color: white;
 }
